@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  height: 80px;
+  background: rgb(172, 97, 185);
+  width: 100%;
+}
+
+.menu_item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu_item2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu_item a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.menu_logo {
+  max-width: 250px;
+  size: inherit;
+  width: 100%;
+}
+.menu_logo:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: rgb(176, 97, 185);
+}
+.menu_item a:hover {
+  color: rgb(248, 7, 168);
+}
+
+.menu_item:hover {
+  background: purple;
+  flex-grow: 2;
+  -webkit-transition-duration: 1s;
+}
+
+.imagen img {
+  display: flex;
+  width: 100%;
+}
+.imagen:hover {
+  filter: sepia(60%);
+  -webkit-transition-duration: 1s;
+}
+
+.nosotros {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  background: #d8d8d8;
+}
+
+.nosotros_item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.nosotros_foto {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.nosotros_foto:hover {
+  border-radius: 25%;
+  -webkit-border-radius: 25%;
+  box-shadow: 0px 0px 15px 15px purple;
+  -webkit-box-shadow: 0px 0px 15px 15px purple;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.nosotros_texto {
+  text-align: justify;
+  font-size: 20px;
+  padding-right: 200px;
+}
+.contacto {
+  display: flex;
+  height: 250px;
+  background: rgb(172, 97, 185);
+  width: 100%;
+}
+.contacto_item {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+  color: #ffffff;
+}
+.contactos {
+  list-style: none;
+  padding: 5px;
+}
+.sucursal {
+  list-style: none;
+  padding: 5px;
+}
+.urgencias {
+  list-style: none;
+  padding: 5px;
+}
+
+.contactos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.urgencias a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contacto p {
+  font-size: 20px;
+  padding: px;
+}
+
+.footer {
+  background: #d8d8d8;
+  text-align: center;
+}
