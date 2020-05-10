@@ -4,33 +4,32 @@
 
 body {
   margin: 0;
-  padding:0;
+  padding: 0;
   background: url(./imagenes/fondo.png) no-repeat center top;
   background-size: cover;
   height: 100vh;
   font-family: sans-serif;
 }
 .login_box {
-  width:320px;
-  height:420px;
-  background:rgba(0, 0, 0, 0.5) ;
+  width: 320px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
-  top:50%;
+  top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   padding: 70px 30px;
 }
 
- 
 .avatar {
   width: 100px;
   height: 100px;
   position: absolute;
   top: -50px;
-  left:calc(50% - 50px) ;
+  left: calc(50% - 50px);
 }
-.avatar:hover{
+.avatar:hover {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   box-shadow: 0px 0px 15px 15px rgb(177, 117, 177);
@@ -41,11 +40,9 @@ body {
 
 h1 {
   margin: 0;
-  padding:0 0 30px;
+  padding: 0 0 30px;
   text-align: center;
   font-size: 22px;
-
-
 }
 
 .login_box label {
@@ -53,7 +50,6 @@ h1 {
   padding: 0;
   font-weight: bold;
   display: block;
-
 }
 
 .login_box input {
@@ -61,50 +57,46 @@ h1 {
   margin-bottom: 20px;
 }
 .password:hover {
-  filter: opacity(.5);
+  filter: opacity(0.5);
 }
 .username:hover {
-  filter: opacity(.5);
+  filter: opacity(0.5);
 }
 
-.password  {
+.password {
   border: none;
-  border-bottom:1px solid #fff ;
+  border-bottom: 1px solid #fff;
   background: transparent;
   outline: none;
   height: 40px;
   font-size: 16px;
-
 }
- .username {
+.username {
   border: none;
-  border-bottom:1px solid #fff ;
+  border-bottom: 1px solid #fff;
   background: transparent;
   outline: none;
   height: 40px;
   font-size: 16px;
- }
+}
 
 .submit {
-border: none;
-outline: none;
-height:40px;
-background:rgb(111, 125, 151) ;
-border-radius: 10px;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: rgb(111, 125, 151);
+  border-radius: 10px;
 }
-.submit:hover{
+.submit:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
- 
+
 .login_box a {
   text-decoration: none;
-  color:rgb(224, 186, 226) ;
-  
-
+  color: rgb(224, 186, 226);
 }
 
 .login_box a:hover {
   color: darkviolet;
- 
 }
